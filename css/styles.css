@@ -20,28 +20,6 @@
     --border-color: #ececec;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.section-work {
-    padding-top: 0;
-}
-
-.container {
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-body {
-    color: var(--primary-text-color);
-
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-}
 /* Header site */
 .nav-container {
     display: flex;
@@ -63,6 +41,25 @@ body {
 
 .logo .accent {
     color: var(--accent-color-black);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+body {
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* Menu nav */
@@ -118,7 +115,6 @@ body {
 /* Hero*/
 
 .section-hero {
-    height: 600px;
     padding-top: 200px;
     padding-bottom: 280px;
     text-align: center;
@@ -198,6 +194,10 @@ body {
     line-height: 1.17;
 
     text-align: center;
+}
+
+.section-work {
+    padding-top: 0;
 }
 
 .work-list {
